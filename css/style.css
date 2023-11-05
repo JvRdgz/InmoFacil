@@ -12,12 +12,17 @@ ul {
     list-style: none;
 }
 
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .description {
     padding: 50px;
     width: 60%;
     margin: auto;
     text-align: center;
-    line-height: 2.9em;
+    line-height: 2.5em;
 }
 
 .bgimg {
@@ -48,7 +53,7 @@ ul {
 .topnav {
     overflow: hidden;
     /* background-color: rgb(87, 13, 13); */
-    background-color: #10131a;
+    background-color: #181d27;
     /* position: fixed;
     top: 0px;
     width: 100%;
@@ -77,7 +82,7 @@ ul {
 }
 
 .topnav a:hover {
-    background-color: rgb(87, 13, 13);
+    background-color: #384255;
 }
 
 .topnav a.active {
@@ -86,6 +91,17 @@ ul {
 
 .topnav .icon {
     display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(223, 52, 52);
 }
 
 @media screen and (max-width: 600px) {
