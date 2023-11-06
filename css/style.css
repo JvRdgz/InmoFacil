@@ -133,20 +133,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
     .description {
-        padding: 40px;
+        padding: 30px;
         width: 100%;
-        margin: auto;
-        text-align: center;
-        line-height: 2.9em;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .description {
-        padding: 40px;
-        width: 90%;
         margin: auto;
         text-align: center;
         line-height: 2.9em;
